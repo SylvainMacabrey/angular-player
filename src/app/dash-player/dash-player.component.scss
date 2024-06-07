@@ -1,0 +1,33 @@
+#videoController {
+  position: relative;
+  top: -100px;
+  width: 95%;
+  margin: auto;
+
+  .action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .btn-circle {
+      width: 40px;
+      height: 40px;
+      border-radius: 100%;
+      margin: 10px;
+    }
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+
+    .info-time {
+      color: white;
+      font-size: 15px;
+    }
+  }
+
+  .progress-style {
+    height: 5px;
+  }
+}

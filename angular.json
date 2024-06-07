@@ -32,9 +32,16 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/controls.css",
+              "src/amsterdam-acid-blue.css",
+              "node_modules/video.js/dist/video-js.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/shaka-player.ui.debug.js",
+              "src/amsterdam-acid-blue.js",
+              "node_modules/jquery/dist/jquery.min.js"
+            ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -96,12 +103,18 @@
               }
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "src/controls.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/shaka-player.ui.debug.js"
+            ]
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "42fecf30-0a8f-4e88-b652-b5bb85df5965"
   }
 }
